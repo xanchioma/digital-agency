@@ -1,0 +1,11 @@
+    function addToIG(ig) {
+        if (navigator.joinAdInterestGroup) {
+            try {
+                navigator.joinAdInterestGroup(ig, 2592000000);
+            } catch(e) {
+                fetch('https://us.creativecdn.com/ig-membership' + '?ig='+ encodeURIComponent(ig.name) + '&err=' +  encodeURIComponent(e.toString().substring(0, 256))).catch(() => {});
+            }
+        }
+    }
+
+    addToIG({"owner":"https://f.creativecdn.com","name":"SVDxCEfgBsFMREJauHL5","biddingLogicURL":"https://f.creativecdn.com/statics/buyer.js","biddingWasmHelperURL":"https://f.creativecdn.com/statics/buyer.wasm","trustedBiddingSignalsURL":"https://f.creativecdn.com/bidder/tbsweb/bids","trustedBiddingSignalsKeys":["v5_qu6_DChEO4KX7t5gLRjltA714Rot8hobp7YMd3KSgi2PT9R3yqA-GUPCejs3tpAhrWX390TKzwMZ2JHt0Nu2VSHkUJlb9O66S1X8lCHdoks"],"ads":[],"adComponents":[],"priority":0.0,"executionMode":"compatibility","auctionServerRequestFlags":["omit-ads"],"updateURL":"https://f.creativecdn.com/update-ig?ntk=_lE7n2-K_squEs1vm706MaaoSiKGEteYahlyDsJUze3m72207eTYmqNkXM0A5yfamKQ7sIRBWy3oXlffCnjoM30ymLPilRAMnnTcXmoPIJnAuv4GbrK79chjTbg3bG66"});

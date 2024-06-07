@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100px;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  background-color: black;
+  color: whitesmoke;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+nav ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  list-style: none;
+  padding: 15px;
+}
+.logo {
+  font-family: "Berkshire Swash", serif,;
+  color: white;
+  padding-left:20px;
+}
+
+nav ul li:hover{
+  color: #25ab75;
+}
+
+.btn {
+  width: 90px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: #25ab75;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 100%;
+  height: 400px;
+  background-color: #1a1a1a;
+}
+.hone {
+  padding-left: 30px;
+  color: white;
+  font-family: "Berkshire Swash", serif;
+  font-size: 3rem;
+  font-weight: 900px;
+}
+.hsix {
+  color: white;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.btn2 {
+  width: 110px;
+  height: 40px;
+  background-color: #25ab75;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin-left: 30px;
+  font-size: 1.1rem;
+}
+.btn3 {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+.five {
+  width: 140px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-left: 30px;
+  font-size: small;
+  border-right: 1px solid white;
+}
+.ct {
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.three {
+  width: 130px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: small;
+}
+.pic {
+  width: 500px;
+  height: 350px;
+  display: flex;
+  border-radius: 30px;
+  margin-top: -30px;
+  
+}
+.carry {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  position: relative;
+}
+.caryyer {
+  width: 100%;
+  height: 180px;
+  background-color:green;
+}
+.honn {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  padding-left: 20px;
+  font-family: "Berkshire Swash", serif,;
+}
+.p1 {
+  color: #f2f2f2;
+  padding-right: 40px;
+  font-size: small;
+  padding-top: 15px
+}
+.pro {
+  width: 150px;
+  height: 150px;
+  background: #25ab75;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  margin-left: 400px;
+  margin-top:  20px;
+  border-radius: 10px;
+}
+.ins {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 90px;
+  margin-right: 80px;
+  position: absolute;
+  background-color: green;
+  
+}
+.hi {
+  font-size: xx-small;
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-weight: 3rem;
+  font-family: "Berkshire Swash",serif,;
+}
+.p2 {
+  padding-top: 10px;
+  font-size: xx-small;
+}
+.web {
+  width: 150px;
+  height: 150px;
+  background: rgb(47, 46, 46);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 580px;
+  margin-top: -130px;
+  border-radius: 10px;
+  
+} 
+.wb {
+  color: white;
+  font-size: xx-small;
+  padding-left: 15px;
+   padding-top: 20px;
+   
+}
+.webim {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 90px;
+  margin-right: 80px;
+  border-color: white;
+  color: white;
+}
+.pweb { 
+  color: white;
+  font-size: xx-small;
+  padding-top: 17px;
+}
+.swp {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.dm1 {
+  font-size: large;
+  color: white;
+}
+.dm2 {
+  font-size: xx-small;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+
+
+@media screen and (max-width: 450px) {
+  .container{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .logo {
+    font-size: 1.3rem;
+  }
+  .bt {
+    display: none;
+  }
+  .btn2 {
+    display: none;
+  }
+  .btn3 {
+    display: none;
+  }
+  .menuwrapper {
+    display: block;
+  }
+  .close {
+    display: none;
+  }
+}
